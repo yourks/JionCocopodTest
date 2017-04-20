@@ -15,6 +15,7 @@
 		26CCFB071EA8B98700ACCDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CCFB051EA8B98700ACCDF0 /* LaunchScreen.storyboard */; };
 		26CCFB121EA8B98700ACCDF0 /* JoinCocopodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFB111EA8B98700ACCDF0 /* JoinCocopodTestTests.m */; };
 		26CCFB1D1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFB1C1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m */; };
+		26CCFB2C1EA8BE5400ACCDF0 /* IYQSuspensionBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFB2B1EA8BE5400ACCDF0 /* IYQSuspensionBtnView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		26CCFB181EA8B98700ACCDF0 /* JoinCocopodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoinCocopodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CCFB1C1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoinCocopodTestUITests.m; sourceTree = "<group>"; };
 		26CCFB1E1EA8B98700ACCDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CCFB2A1EA8BE5400ACCDF0 /* IYQSuspensionBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSuspensionBtnView.h; sourceTree = "<group>"; };
+		26CCFB2B1EA8BE5400ACCDF0 /* IYQSuspensionBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSuspensionBtnView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		26CCFAF61EA8B98700ACCDF0 /* JoinCocopodTest */ = {
 			isa = PBXGroup;
 			children = (
+				26CCFB2A1EA8BE5400ACCDF0 /* IYQSuspensionBtnView.h */,
+				26CCFB2B1EA8BE5400ACCDF0 /* IYQSuspensionBtnView.m */,
 				26CCFAFA1EA8B98700ACCDF0 /* AppDelegate.h */,
 				26CCFAFB1EA8B98700ACCDF0 /* AppDelegate.m */,
 				26CCFAFD1EA8B98700ACCDF0 /* ViewController.h */,
@@ -275,6 +280,7 @@
 			files = (
 				26CCFAFF1EA8B98700ACCDF0 /* ViewController.m in Sources */,
 				26CCFAFC1EA8B98700ACCDF0 /* AppDelegate.m in Sources */,
+				26CCFB2C1EA8BE5400ACCDF0 /* IYQSuspensionBtnView.m in Sources */,
 				26CCFAF91EA8B98700ACCDF0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +515,7 @@
 				26CCFB231EA8B98700ACCDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26CCFB241EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +524,7 @@
 				26CCFB261EA8B98700ACCDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26CCFB271EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +533,7 @@
 				26CCFB291EA8B98700ACCDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
