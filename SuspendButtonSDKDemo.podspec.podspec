@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.license      = { :type => ‘MIT’, :tag => '1.0.0' }
+  s.license      = { :type => ‘MIT’, :tag => ‘1.0.2’ }
 
 
   s.author       = { 'codeliu6572' => 'codeliu6572@163.com' }
