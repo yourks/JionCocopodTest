@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26CA29CA1ECC1BD6005E6A45 /* CustomBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CA29C91ECC1BD6005E6A45 /* CustomBtnView.m */; };
+		26CA29CE1ECC1D55005E6A45 /* CustomBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CA29CD1ECC1D55005E6A45 /* CustomBtnView.m */; };
 		26CCFAF91EA8B98700ACCDF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFAF81EA8B98700ACCDF0 /* main.m */; };
 		26CCFAFC1EA8B98700ACCDF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFAFB1EA8B98700ACCDF0 /* AppDelegate.m */; };
 		26CCFAFF1EA8B98700ACCDF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFAFE1EA8B98700ACCDF0 /* ViewController.m */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26CA29C81ECC1BD6005E6A45 /* CustomBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtnView.h; sourceTree = "<group>"; };
-		26CA29C91ECC1BD6005E6A45 /* CustomBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtnView.m; sourceTree = "<group>"; };
+		26CA29CC1ECC1D55005E6A45 /* CustomBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtnView.h; sourceTree = "<group>"; };
+		26CA29CD1ECC1D55005E6A45 /* CustomBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtnView.m; sourceTree = "<group>"; };
 		26CCFAF41EA8B98700ACCDF0 /* JoinCocopodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoinCocopodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CCFAF81EA8B98700ACCDF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26CCFAFA1EA8B98700ACCDF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,13 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26CA29C71ECC1BD6005E6A45 /* CustomBtnView */ = {
+		26CA29CB1ECC1D39005E6A45 /* CustomBtnView */ = {
 			isa = PBXGroup;
 			children = (
-				26CA29C81ECC1BD6005E6A45 /* CustomBtnView.h */,
-				26CA29C91ECC1BD6005E6A45 /* CustomBtnView.m */,
+				26CA29CC1ECC1D55005E6A45 /* CustomBtnView.h */,
+				26CA29CD1ECC1D55005E6A45 /* CustomBtnView.m */,
 			);
-			path = CustomBtnView;
+			name = CustomBtnView;
+			path = IYQSuspensionBtn;
 			sourceTree = "<group>";
 		};
 		26CCFAEB1EA8B98700ACCDF0 = {
@@ -123,7 +124,7 @@
 		26CCFAF61EA8B98700ACCDF0 /* JoinCocopodTest */ = {
 			isa = PBXGroup;
 			children = (
-				26CA29C71ECC1BD6005E6A45 /* CustomBtnView */,
+				26CA29CB1ECC1D39005E6A45 /* CustomBtnView */,
 				26CCFB2D1EA8C11800ACCDF0 /* IYQSuspensionBtn */,
 				26CCFAFA1EA8B98700ACCDF0 /* AppDelegate.h */,
 				26CCFAFB1EA8B98700ACCDF0 /* AppDelegate.m */,
@@ -376,7 +377,7 @@
 			files = (
 				26CCFAFF1EA8B98700ACCDF0 /* ViewController.m in Sources */,
 				26CCFAFC1EA8B98700ACCDF0 /* AppDelegate.m in Sources */,
-				26CA29CA1ECC1BD6005E6A45 /* CustomBtnView.m in Sources */,
+				26CA29CE1ECC1D55005E6A45 /* CustomBtnView.m in Sources */,
 				26CCFB301EA8C11800ACCDF0 /* IYQSuspensionBtnView.m in Sources */,
 				26CCFAF91EA8B98700ACCDF0 /* main.m in Sources */,
 			);

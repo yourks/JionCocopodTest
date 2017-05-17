@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = 'JoinCocopodTest'
-    s.version      = '1.0.6'
+    s.version      = '1.0.7'
     s.summary      = 'creat a project for learn to use how SDK use Cocopod manage'
     s.homepage     = 'https://github.com/yourks/JionCocopodTest'
     s.license      = 'MIT'
