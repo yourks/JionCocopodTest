@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CustomBtnView.h"
+#import "Masonry.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    CustomBtnView *contentView = [CustomBtnView new];
+    [self.view addSubview:contentView];
+    [contentView mas_remakeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+    
+    [contentView setupUITitleArr:@[@"141341",@"2fadfad",@"3fadf",@"4a",@"5",@"6",@"7",@"8",@"9",@"1fadfa",@"2",@"3",@"4",@"5",@"6",@"fadfa7",@"8",@"9",@"1",@"2",@"3",@"fadf4",@"5",@"6",@"fadfa7",@"8",@"9"]];
+    
+    [contentView layoutContentUI];
+    
+    contentView.backgroundColor = [UIColor clearColor];
+    
+    [contentView setSelectedBlock:^(NSInteger index) {
+        NSLog(@"king");
+    }];
 }
 
 
