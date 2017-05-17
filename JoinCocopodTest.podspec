@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/yourks/JionCocopodTest.git', :tag => s.version}
     s.source_files = 'JoinCocopodTest/*.{h,m}'
     s.requires_arc = true
+    s.dependency 'Masonry', '~> 1.0.2'
+
 end

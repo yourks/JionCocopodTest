@@ -1,549 +1,1250 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		26CCFAF91EA8B98700ACCDF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFAF81EA8B98700ACCDF0 /* main.m */; };
-		26CCFAFC1EA8B98700ACCDF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFAFB1EA8B98700ACCDF0 /* AppDelegate.m */; };
-		26CCFAFF1EA8B98700ACCDF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFAFE1EA8B98700ACCDF0 /* ViewController.m */; };
-		26CCFB021EA8B98700ACCDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CCFB001EA8B98700ACCDF0 /* Main.storyboard */; };
-		26CCFB041EA8B98700ACCDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CCFB031EA8B98700ACCDF0 /* Assets.xcassets */; };
-		26CCFB071EA8B98700ACCDF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CCFB051EA8B98700ACCDF0 /* LaunchScreen.storyboard */; };
-		26CCFB121EA8B98700ACCDF0 /* JoinCocopodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFB111EA8B98700ACCDF0 /* JoinCocopodTestTests.m */; };
-		26CCFB1D1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFB1C1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m */; };
-		26CCFB301EA8C11800ACCDF0 /* IYQSuspensionBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCFB2F1EA8C11800ACCDF0 /* IYQSuspensionBtnView.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		26CCFB0E1EA8B98700ACCDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CCFAEC1EA8B98700ACCDF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26CCFAF31EA8B98700ACCDF0;
-			remoteInfo = JoinCocopodTest;
-		};
-		26CCFB191EA8B98700ACCDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CCFAEC1EA8B98700ACCDF0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26CCFAF31EA8B98700ACCDF0;
-			remoteInfo = JoinCocopodTest;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		26CCFAF41EA8B98700ACCDF0 /* JoinCocopodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoinCocopodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26CCFAF81EA8B98700ACCDF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		26CCFAFA1EA8B98700ACCDF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		26CCFAFB1EA8B98700ACCDF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		26CCFAFD1EA8B98700ACCDF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		26CCFAFE1EA8B98700ACCDF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		26CCFB011EA8B98700ACCDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26CCFB031EA8B98700ACCDF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		26CCFB061EA8B98700ACCDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		26CCFB081EA8B98700ACCDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26CCFB0D1EA8B98700ACCDF0 /* JoinCocopodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoinCocopodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26CCFB111EA8B98700ACCDF0 /* JoinCocopodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoinCocopodTestTests.m; sourceTree = "<group>"; };
-		26CCFB131EA8B98700ACCDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26CCFB181EA8B98700ACCDF0 /* JoinCocopodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoinCocopodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26CCFB1C1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoinCocopodTestUITests.m; sourceTree = "<group>"; };
-		26CCFB1E1EA8B98700ACCDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26CCFB2E1EA8C11800ACCDF0 /* IYQSuspensionBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQSuspensionBtnView.h; sourceTree = "<group>"; };
-		26CCFB2F1EA8C11800ACCDF0 /* IYQSuspensionBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQSuspensionBtnView.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		26CCFAF11EA8B98700ACCDF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CCFB0A1EA8B98700ACCDF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CCFB151EA8B98700ACCDF0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		26CCFAEB1EA8B98700ACCDF0 = {
-			isa = PBXGroup;
-			children = (
-				26CCFAF61EA8B98700ACCDF0 /* JoinCocopodTest */,
-				26CCFB101EA8B98700ACCDF0 /* JoinCocopodTestTests */,
-				26CCFB1B1EA8B98700ACCDF0 /* JoinCocopodTestUITests */,
-				26CCFAF51EA8B98700ACCDF0 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		26CCFAF51EA8B98700ACCDF0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				26CCFAF41EA8B98700ACCDF0 /* JoinCocopodTest.app */,
-				26CCFB0D1EA8B98700ACCDF0 /* JoinCocopodTestTests.xctest */,
-				26CCFB181EA8B98700ACCDF0 /* JoinCocopodTestUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		26CCFAF61EA8B98700ACCDF0 /* JoinCocopodTest */ = {
-			isa = PBXGroup;
-			children = (
-				26CCFB2D1EA8C11800ACCDF0 /* IYQSuspensionBtn */,
-				26CCFAFA1EA8B98700ACCDF0 /* AppDelegate.h */,
-				26CCFAFB1EA8B98700ACCDF0 /* AppDelegate.m */,
-				26CCFAFD1EA8B98700ACCDF0 /* ViewController.h */,
-				26CCFAFE1EA8B98700ACCDF0 /* ViewController.m */,
-				26CCFB001EA8B98700ACCDF0 /* Main.storyboard */,
-				26CCFB031EA8B98700ACCDF0 /* Assets.xcassets */,
-				26CCFB051EA8B98700ACCDF0 /* LaunchScreen.storyboard */,
-				26CCFB081EA8B98700ACCDF0 /* Info.plist */,
-				26CCFAF71EA8B98700ACCDF0 /* Supporting Files */,
-			);
-			path = JoinCocopodTest;
-			sourceTree = "<group>";
-		};
-		26CCFAF71EA8B98700ACCDF0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				26CCFAF81EA8B98700ACCDF0 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		26CCFB101EA8B98700ACCDF0 /* JoinCocopodTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				26CCFB111EA8B98700ACCDF0 /* JoinCocopodTestTests.m */,
-				26CCFB131EA8B98700ACCDF0 /* Info.plist */,
-			);
-			path = JoinCocopodTestTests;
-			sourceTree = "<group>";
-		};
-		26CCFB1B1EA8B98700ACCDF0 /* JoinCocopodTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				26CCFB1C1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m */,
-				26CCFB1E1EA8B98700ACCDF0 /* Info.plist */,
-			);
-			path = JoinCocopodTestUITests;
-			sourceTree = "<group>";
-		};
-		26CCFB2D1EA8C11800ACCDF0 /* IYQSuspensionBtn */ = {
-			isa = PBXGroup;
-			children = (
-				26CCFB2E1EA8C11800ACCDF0 /* IYQSuspensionBtnView.h */,
-				26CCFB2F1EA8C11800ACCDF0 /* IYQSuspensionBtnView.m */,
-			);
-			path = IYQSuspensionBtn;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		26CCFAF31EA8B98700ACCDF0 /* JoinCocopodTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26CCFB211EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTest" */;
-			buildPhases = (
-				26CCFAF01EA8B98700ACCDF0 /* Sources */,
-				26CCFAF11EA8B98700ACCDF0 /* Frameworks */,
-				26CCFAF21EA8B98700ACCDF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JoinCocopodTest;
-			productName = JoinCocopodTest;
-			productReference = 26CCFAF41EA8B98700ACCDF0 /* JoinCocopodTest.app */;
-			productType = "com.apple.product-type.application";
-		};
-		26CCFB0C1EA8B98700ACCDF0 /* JoinCocopodTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26CCFB241EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTestTests" */;
-			buildPhases = (
-				26CCFB091EA8B98700ACCDF0 /* Sources */,
-				26CCFB0A1EA8B98700ACCDF0 /* Frameworks */,
-				26CCFB0B1EA8B98700ACCDF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26CCFB0F1EA8B98700ACCDF0 /* PBXTargetDependency */,
-			);
-			name = JoinCocopodTestTests;
-			productName = JoinCocopodTestTests;
-			productReference = 26CCFB0D1EA8B98700ACCDF0 /* JoinCocopodTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		26CCFB171EA8B98700ACCDF0 /* JoinCocopodTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26CCFB271EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTestUITests" */;
-			buildPhases = (
-				26CCFB141EA8B98700ACCDF0 /* Sources */,
-				26CCFB151EA8B98700ACCDF0 /* Frameworks */,
-				26CCFB161EA8B98700ACCDF0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26CCFB1A1EA8B98700ACCDF0 /* PBXTargetDependency */,
-			);
-			name = JoinCocopodTestUITests;
-			productName = JoinCocopodTestUITests;
-			productReference = 26CCFB181EA8B98700ACCDF0 /* JoinCocopodTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		26CCFAEC1EA8B98700ACCDF0 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = YKYourks;
-				TargetAttributes = {
-					26CCFAF31EA8B98700ACCDF0 = {
-						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
-					};
-					26CCFB0C1EA8B98700ACCDF0 = {
-						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 26CCFAF31EA8B98700ACCDF0;
-					};
-					26CCFB171EA8B98700ACCDF0 = {
-						CreatedOnToolsVersion = 8.3.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 26CCFAF31EA8B98700ACCDF0;
-					};
-				};
-			};
-			buildConfigurationList = 26CCFAEF1EA8B98700ACCDF0 /* Build configuration list for PBXProject "JoinCocopodTest" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 26CCFAEB1EA8B98700ACCDF0;
-			productRefGroup = 26CCFAF51EA8B98700ACCDF0 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				26CCFAF31EA8B98700ACCDF0 /* JoinCocopodTest */,
-				26CCFB0C1EA8B98700ACCDF0 /* JoinCocopodTestTests */,
-				26CCFB171EA8B98700ACCDF0 /* JoinCocopodTestUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		26CCFAF21EA8B98700ACCDF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26CCFB071EA8B98700ACCDF0 /* LaunchScreen.storyboard in Resources */,
-				26CCFB041EA8B98700ACCDF0 /* Assets.xcassets in Resources */,
-				26CCFB021EA8B98700ACCDF0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CCFB0B1EA8B98700ACCDF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CCFB161EA8B98700ACCDF0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		26CCFAF01EA8B98700ACCDF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26CCFAFF1EA8B98700ACCDF0 /* ViewController.m in Sources */,
-				26CCFAFC1EA8B98700ACCDF0 /* AppDelegate.m in Sources */,
-				26CCFB301EA8C11800ACCDF0 /* IYQSuspensionBtnView.m in Sources */,
-				26CCFAF91EA8B98700ACCDF0 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CCFB091EA8B98700ACCDF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26CCFB121EA8B98700ACCDF0 /* JoinCocopodTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26CCFB141EA8B98700ACCDF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26CCFB1D1EA8B98700ACCDF0 /* JoinCocopodTestUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		26CCFB0F1EA8B98700ACCDF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26CCFAF31EA8B98700ACCDF0 /* JoinCocopodTest */;
-			targetProxy = 26CCFB0E1EA8B98700ACCDF0 /* PBXContainerItemProxy */;
-		};
-		26CCFB1A1EA8B98700ACCDF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26CCFAF31EA8B98700ACCDF0 /* JoinCocopodTest */;
-			targetProxy = 26CCFB191EA8B98700ACCDF0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		26CCFB001EA8B98700ACCDF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26CCFB011EA8B98700ACCDF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		26CCFB051EA8B98700ACCDF0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26CCFB061EA8B98700ACCDF0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		26CCFB1F1EA8B98700ACCDF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		26CCFB201EA8B98700ACCDF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		26CCFB221EA8B98700ACCDF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JoinCocopodTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YK.JoinCocopodTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		26CCFB231EA8B98700ACCDF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = JoinCocopodTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YK.JoinCocopodTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		26CCFB251EA8B98700ACCDF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = JoinCocopodTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YK.JoinCocopodTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoinCocopodTest.app/JoinCocopodTest";
-			};
-			name = Debug;
-		};
-		26CCFB261EA8B98700ACCDF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = JoinCocopodTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YK.JoinCocopodTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoinCocopodTest.app/JoinCocopodTest";
-			};
-			name = Release;
-		};
-		26CCFB281EA8B98700ACCDF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = JoinCocopodTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YK.JoinCocopodTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JoinCocopodTest;
-			};
-			name = Debug;
-		};
-		26CCFB291EA8B98700ACCDF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = JoinCocopodTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YK.JoinCocopodTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = JoinCocopodTest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		26CCFAEF1EA8B98700ACCDF0 /* Build configuration list for PBXProject "JoinCocopodTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26CCFB1F1EA8B98700ACCDF0 /* Debug */,
-				26CCFB201EA8B98700ACCDF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26CCFB211EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26CCFB221EA8B98700ACCDF0 /* Debug */,
-				26CCFB231EA8B98700ACCDF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26CCFB241EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26CCFB251EA8B98700ACCDF0 /* Debug */,
-				26CCFB261EA8B98700ACCDF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26CCFB271EA8B98700ACCDF0 /* Build configuration list for PBXNativeTarget "JoinCocopodTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26CCFB281EA8B98700ACCDF0 /* Debug */,
-				26CCFB291EA8B98700ACCDF0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 26CCFAEC1EA8B98700ACCDF0 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>26CCFAEB1EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFAF61EA8B98700ACCDF0</string>
+				<string>26CCFB101EA8B98700ACCDF0</string>
+				<string>26CCFB1B1EA8B98700ACCDF0</string>
+				<string>26CCFAF51EA8B98700ACCDF0</string>
+				<string>AC0A059F27F265370F1091D1</string>
+				<string>559CAE37F0500FC6C11F50AA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAEC1EA8B98700ACCDF0</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0830</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>YKYourks</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>26CCFAF31EA8B98700ACCDF0</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.3.1</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+					<key>26CCFB0C1EA8B98700ACCDF0</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.3.1</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>26CCFAF31EA8B98700ACCDF0</string>
+					</dict>
+					<key>26CCFB171EA8B98700ACCDF0</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.3.1</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>26CCFAF31EA8B98700ACCDF0</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>26CCFAEF1EA8B98700ACCDF0</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>26CCFAEB1EA8B98700ACCDF0</string>
+			<key>productRefGroup</key>
+			<string>26CCFAF51EA8B98700ACCDF0</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>26CCFAF31EA8B98700ACCDF0</string>
+				<string>26CCFB0C1EA8B98700ACCDF0</string>
+				<string>26CCFB171EA8B98700ACCDF0</string>
+			</array>
+		</dict>
+		<key>26CCFAEF1EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>26CCFB1F1EA8B98700ACCDF0</string>
+				<string>26CCFB201EA8B98700ACCDF0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>26CCFAF01EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>26CCFAFF1EA8B98700ACCDF0</string>
+				<string>26CCFAFC1EA8B98700ACCDF0</string>
+				<string>26CCFB301EA8C11800ACCDF0</string>
+				<string>26CCFAF91EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFAF11EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>70451BF1584782818C0F8CD5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFAF21EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>26CCFB071EA8B98700ACCDF0</string>
+				<string>26CCFB041EA8B98700ACCDF0</string>
+				<string>26CCFB021EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFAF31EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>26CCFB211EA8B98700ACCDF0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>348181269F78292FBEC02E87</string>
+				<string>26CCFAF01EA8B98700ACCDF0</string>
+				<string>26CCFAF11EA8B98700ACCDF0</string>
+				<string>26CCFAF21EA8B98700ACCDF0</string>
+				<string>DBD2B948721E69BEC6149D64</string>
+				<string>EB5DF8F02A27B5AF29C8DCC4</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>JoinCocopodTest</string>
+			<key>productName</key>
+			<string>JoinCocopodTest</string>
+			<key>productReference</key>
+			<string>26CCFAF41EA8B98700ACCDF0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>26CCFAF41EA8B98700ACCDF0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>JoinCocopodTest.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>26CCFAF51EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFAF41EA8B98700ACCDF0</string>
+				<string>26CCFB0D1EA8B98700ACCDF0</string>
+				<string>26CCFB181EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAF61EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFB2D1EA8C11800ACCDF0</string>
+				<string>26CCFAFA1EA8B98700ACCDF0</string>
+				<string>26CCFAFB1EA8B98700ACCDF0</string>
+				<string>26CCFAFD1EA8B98700ACCDF0</string>
+				<string>26CCFAFE1EA8B98700ACCDF0</string>
+				<string>26CCFB001EA8B98700ACCDF0</string>
+				<string>26CCFB031EA8B98700ACCDF0</string>
+				<string>26CCFB051EA8B98700ACCDF0</string>
+				<string>26CCFB081EA8B98700ACCDF0</string>
+				<string>26CCFAF71EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>JoinCocopodTest</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAF71EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFAF81EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAF81EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAF91EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFAF81EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFAFA1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAFB1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAFC1EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFAFB1EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFAFD1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAFE1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFAFF1EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFAFE1EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFB001EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFB011EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB011EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB021EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFB001EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFB031EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB041EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFB031EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFB051EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFB061EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB061EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB071EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFB051EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFB081EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB091EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>26CCFB121EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFB0A1EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFB0B1EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFB0C1EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>26CCFB241EA8B98700ACCDF0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>26CCFB091EA8B98700ACCDF0</string>
+				<string>26CCFB0A1EA8B98700ACCDF0</string>
+				<string>26CCFB0B1EA8B98700ACCDF0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>26CCFB0F1EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>JoinCocopodTestTests</string>
+			<key>productName</key>
+			<string>JoinCocopodTestTests</string>
+			<key>productReference</key>
+			<string>26CCFB0D1EA8B98700ACCDF0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>26CCFB0D1EA8B98700ACCDF0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>JoinCocopodTestTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>26CCFB0E1EA8B98700ACCDF0</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>26CCFAEC1EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>26CCFAF31EA8B98700ACCDF0</string>
+			<key>remoteInfo</key>
+			<string>JoinCocopodTest</string>
+		</dict>
+		<key>26CCFB0F1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>26CCFAF31EA8B98700ACCDF0</string>
+			<key>targetProxy</key>
+			<string>26CCFB0E1EA8B98700ACCDF0</string>
+		</dict>
+		<key>26CCFB101EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFB111EA8B98700ACCDF0</string>
+				<string>26CCFB131EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>JoinCocopodTestTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB111EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>JoinCocopodTestTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB121EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFB111EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFB131EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB141EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>26CCFB1D1EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFB151EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFB161EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>26CCFB171EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>26CCFB271EA8B98700ACCDF0</string>
+			<key>buildPhases</key>
+			<array>
+				<string>26CCFB141EA8B98700ACCDF0</string>
+				<string>26CCFB151EA8B98700ACCDF0</string>
+				<string>26CCFB161EA8B98700ACCDF0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>26CCFB1A1EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>JoinCocopodTestUITests</string>
+			<key>productName</key>
+			<string>JoinCocopodTestUITests</string>
+			<key>productReference</key>
+			<string>26CCFB181EA8B98700ACCDF0</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>26CCFB181EA8B98700ACCDF0</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>JoinCocopodTestUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>26CCFB191EA8B98700ACCDF0</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>26CCFAEC1EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>26CCFAF31EA8B98700ACCDF0</string>
+			<key>remoteInfo</key>
+			<string>JoinCocopodTest</string>
+		</dict>
+		<key>26CCFB1A1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>26CCFAF31EA8B98700ACCDF0</string>
+			<key>targetProxy</key>
+			<string>26CCFB191EA8B98700ACCDF0</string>
+		</dict>
+		<key>26CCFB1B1EA8B98700ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFB1C1EA8B98700ACCDF0</string>
+				<string>26CCFB1E1EA8B98700ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>JoinCocopodTestUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB1C1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>JoinCocopodTestUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB1D1EA8B98700ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFB1C1EA8B98700ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CCFB1E1EA8B98700ACCDF0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB1F1EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>26CCFB201EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>26CCFB211EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>26CCFB221EA8B98700ACCDF0</string>
+				<string>26CCFB231EA8B98700ACCDF0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>26CCFB221EA8B98700ACCDF0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A06F22471E53FB50A4AD2A38</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>JoinCocopodTest/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>YK.JoinCocopodTest</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>26CCFB231EA8B98700ACCDF0</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5D3B9939EFF38E2A371907D9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>JoinCocopodTest/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>YK.JoinCocopodTest</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>26CCFB241EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>26CCFB251EA8B98700ACCDF0</string>
+				<string>26CCFB261EA8B98700ACCDF0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>26CCFB251EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>JoinCocopodTestTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>YK.JoinCocopodTestTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/JoinCocopodTest.app/JoinCocopodTest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>26CCFB261EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>JoinCocopodTestTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>YK.JoinCocopodTestTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/JoinCocopodTest.app/JoinCocopodTest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>26CCFB271EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>26CCFB281EA8B98700ACCDF0</string>
+				<string>26CCFB291EA8B98700ACCDF0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>26CCFB281EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>JoinCocopodTestUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>YK.JoinCocopodTestUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>JoinCocopodTest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>26CCFB291EA8B98700ACCDF0</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>JoinCocopodTestUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>YK.JoinCocopodTestUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>JoinCocopodTest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>26CCFB2D1EA8C11800ACCDF0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>26CCFB2E1EA8C11800ACCDF0</string>
+				<string>26CCFB2F1EA8C11800ACCDF0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>IYQSuspensionBtn</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB2E1EA8C11800ACCDF0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>IYQSuspensionBtnView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB2F1EA8C11800ACCDF0</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>IYQSuspensionBtnView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26CCFB301EA8C11800ACCDF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>26CCFB2F1EA8C11800ACCDF0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>348181269F78292FBEC02E87</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [ $? != 0 ] ; then
+    # print error to STDERR
+    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>559CAE37F0500FC6C11F50AA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B09E39F5D3D6C62A7F057165</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5D3B9939EFF38E2A371907D9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-JoinCocopodTest.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-JoinCocopodTest/Pods-JoinCocopodTest.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>70451BF1584782818C0F8CD5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B09E39F5D3D6C62A7F057165</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A06F22471E53FB50A4AD2A38</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-JoinCocopodTest.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-JoinCocopodTest/Pods-JoinCocopodTest.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AC0A059F27F265370F1091D1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A06F22471E53FB50A4AD2A38</string>
+				<string>5D3B9939EFF38E2A371907D9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B09E39F5D3D6C62A7F057165</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-JoinCocopodTest.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>DBD2B948721E69BEC6149D64</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-JoinCocopodTest/Pods-JoinCocopodTest-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>EB5DF8F02A27B5AF29C8DCC4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-JoinCocopodTest/Pods-JoinCocopodTest-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>26CCFAEC1EA8B98700ACCDF0</string>
+</dict>
+</plist>
